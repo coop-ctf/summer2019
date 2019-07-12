@@ -1,0 +1,9 @@
+Question:
+Decrypt the file.
+
+Worth 50 pts.
+If you use the hint, the question will only be worth 17 pts (i.e. the hint costs 33 pts).
+You should have 3 tries to get this question correct.
+
+Hint: (using this hint should cost 65% of the points)
+This is a shift cipher, so the keyspace is already very small.  Furthermore, running frequency analysis should reduce the number of candidate keys to only a handful.

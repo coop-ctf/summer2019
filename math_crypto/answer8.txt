@@ -1,0 +1,8 @@
+13
+
+Worth 50 pts.
+There is no hint.
+You only get 1 attempt.
+
+Solution: 
+The greatest common denominator of the three denominations.

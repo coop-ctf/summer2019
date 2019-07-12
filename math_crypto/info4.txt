@@ -1,0 +1,9 @@
+Question:
+Decrypt the file.
+
+Worth 50 pts.
+If you use the hint it should only be worth 12 pts.
+You should only get 2 attempts.
+
+Hint: (using this hint should cost 75% of the points)
+This is a columnar transposition cipher.

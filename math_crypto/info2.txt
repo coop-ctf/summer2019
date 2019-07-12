@@ -1,0 +1,9 @@
+Question:
+Decrypt the file.  Submit the first 100 characters and last 100 characters concatenated as your answer.
+
+Worth 130 pts.
+If you use the hint, it should only be worth 65 pts.
+You can have up to 5 tries.
+
+Hint: (using this hint should cost 50% of the points)
+This is a simple substitution cipher, use frequency analysis.

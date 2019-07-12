@@ -1,0 +1,2 @@
+nmap -p 41000-46000 localhost
+ncat localhost 41054

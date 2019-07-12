@@ -1,0 +1,1 @@
+find / -type f -exec grep -sH 'FLAG{' {} \; 2>/dev/null

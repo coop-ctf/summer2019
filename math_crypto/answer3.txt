@@ -1,0 +1,12 @@
+99999999999999999999
+
+Worth 50 pts.
+If you use the hint it should only be worth 25 points.
+You should only get 2 attempts.
+
+Solution:
+If n(h) is the number of blocks required to construct a pyramid of height h, then n(h) = \sum_{k=0}^h k^3 = \frac{h^2\left(h+1\right)^2}{4}.
+Note then that \frac{h^4}{4} \leq n(h) \leq \frac{\left(h+1\right)^2}{4} \leq n(h+1) \leq \frac{\left(h+2\right)^2}{4}.  Rearranging, we can see that \floor{\sqrt[4]{4n}} \in \{h, h+1\}.  Therefore, we find h(n) by testing if n\left(\floor{\sqrt[4]{4n}}\right) is greater than n: if not, we take \floor{\sqrt[4]{4n}}, else we take \floor{\sqrt[4]{4n}} - 1.
+
+Hint: (using the hint should take off 50% of the total points)
+The sum of the first h cubes is h^2(h+1)^2 / 4.

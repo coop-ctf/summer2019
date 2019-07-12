@@ -1,0 +1,2 @@
+cat /etc/passwd
+cat /home/banana/nDT1KYZnP | base64 -d

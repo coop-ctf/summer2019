@@ -1,0 +1,16 @@
+# Start COMMON
+RUN useradd -m guest
+WORKDIR /home/guest
+RUN apt-get update && apt-get -y install \
+  curl vim less iputils-ping dnsutils netcat nmap jq python3-pip sudo openssl \
+  openssh-server bsdmainutils xxd && \
+  mkdir -p /var/run/sshd
+COPY common/authorized_keys /home/guest/.ssh/authorized_keys
+RUN chown -R guest .ssh/ && chgrp -R guest .ssh/ && chsh -s /bin/bash guest && \
+    rm -f /etc/update-motd.d/*
+ADD common/00-header /etc/update-motd.d/00-header
+ADD common/01-ctf /etc/update-motd.d/01-ctf
+RUN chmod 755 /etc/update-motd.d/*
+EXPOSE 22
+CMD ["/usr/sbin/sshd", "-D"]
+# End COMMON

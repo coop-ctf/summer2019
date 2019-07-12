@@ -1,0 +1,10 @@
+You wake up on the Island of Knights and Knaves, where everybody on the island is either a knight, or a knave, but not both.
+Knights always tell the truth, and knaves always tell a lie.  It is impossible for a knight to make a false statement, and impossible for a knave to make a true statement.
+You soon encounter three inhabitants of the island, A, B, and C.  
+A says: "Exactly two of us are knights."
+B says: "Exactly two of us are knaves."
+C says: "A and B are both knaves."
+What is A?  What is B?  What is C?  
+To submit your answer, we will use the code T for a knight, F for a knave, and U for undetermined (i.e. if the inhabitant could be either a knight or a knave, the problem did not give enough information).
+Your answer must consist of three characters, where your answer for inhabitant A is the first character, your answer for B is the second character, and your answer for C is the third character.
+E.g. TUF means that A is a knight, B is undetermined, and C is a knave.

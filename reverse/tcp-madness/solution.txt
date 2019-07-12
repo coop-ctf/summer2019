@@ -1,0 +1,2 @@
+tcpdump -l -i lo -w - port 8080 | tcpflow -C -D -r -
+

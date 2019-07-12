@@ -1,0 +1,7 @@
+#!/bin/bash
+
+red=$'\e[1;31m'
+endc=$'\e[0m'
+
+printf "${red}You are now inside the server for your team. Good luck!${endc}\n"
+

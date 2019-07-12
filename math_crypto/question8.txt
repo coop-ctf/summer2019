@@ -1,0 +1,2 @@
+Suppose you find yourself in a very silly country, where all transactions must be made in cash, and there are only three denominations of currency: $435'812, $47'125, and $1'159'171.  What is the smallest positive amount you can possibly pay for with these denominations, assuming you are allowed to get change?  Just write the number, excluding the dollar sign.
+For example: If the denominations were $25 and $20, then the smallest amount you could pay for would be $5 (so your answer would be 5), since you can pay $25, and receive $20 in change.

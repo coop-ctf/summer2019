@@ -1,0 +1,8 @@
+31
+
+Worth 50 pts.
+There is no hint.
+You only get 1 attempt.
+
+Solution:
+32, 33, 34, 35, and 36 can all be written as natural-linear combinations of 5 and 9.  Then, inductively, all higher integer amounts could be paid for.

